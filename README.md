@@ -1,50 +1,59 @@
 # Titanic Survival Prediction (Machine Learning Project)
 
 ## Project Overview
-This project predicts whether a passenger survived the Titanic disaster using machine learning classification models. The goal is to analyze passenger data and build a predictive model that identifies survival patterns.
+This project applies machine learning techniques to predict whether a passenger survived the Titanic disaster. It demonstrates a complete end-to-end ML workflow including data preprocessing, model training, and evaluation.
 
 ---
 
 ## Problem Statement
-Given passenger information such as age, gender, class, and fare, the model predicts whether the passenger survived or not.
+Given passenger details such as age, gender, ticket class, and fare, the goal is to predict survival outcomes using a classification model.
 
 ---
 
 ## Workflow
 
-### 1. Data Collection
-- Titanic dataset used (Kaggle )
+### 1. Data Understanding
+- Loaded Titanic dataset
+- Explored missing values and feature distributions
 
 ### 2. Data Preprocessing
-- Handling missing values
-- Encoding categorical variables
-- Feature selection
+- Handled missing values (age, embarked, etc.)
+- Encoded categorical variables (Sex, Embarked)
+- Selected relevant features for modeling
 
 ### 3. Model Building
-- Logistic Regression 
-- Train-test split applied
+- Applied Logistic Regression as baseline classification model
+- Split data into training and testing sets
 
-### 4. Evaluation
-- Accuracy score
-- Confusion matrix
-- Feature Importance
+### 4. Model Evaluation
+- Evaluated using accuracy score
+- Confusion matrix used to analyze predictions
 
 ---
 
 ## Results
-- Model achieved good prediction accuracy on test data
-- Confusion matrix used to evaluate performance
-- Key insight: Gender and passenger class had strong impact on survival
+
+The Logistic Regression model achieved approximately **81% accuracy** on the test dataset.
+
+### Key Insights:
+- Passenger gender was the strongest factor influencing survival.
+- Passenger class (Pclass) had a significant impact on survival probability.
+- The model provides a strong baseline for classification tasks on this dataset.
+
+### Evaluation Metrics:
+- Accuracy Score: ~0.81
+- Confusion Matrix used for performance evaluation
 
 ---
 
 ## Visualizations
-The project includes:
-- Survival distribution charts
-- Gender-based survival analysis
-- Confusion matrix visualization
+The project includes visual analysis such as:
+- Survival distribution
+- Survival by gender
+- Survival by passenger class
+- Confusion matrix heatmap
 
-(See `images/` folder)
+(All visualizations are available in the `images/` folder)
 
 ---
 
@@ -53,7 +62,8 @@ The project includes:
 - Pandas
 - NumPy
 - Scikit-learn
-- Matplotlib / Seaborn
+- Matplotlib
+- Seaborn
 
 ---
 
@@ -62,16 +72,20 @@ Titanic-Survival-Prediction/
 │
 ├── notebook.ipynb
 ├── images/
+│ ├── confusion_matrix.png
+│ ├── survival_by_gender.png
+│ └── survival_count.png
 └── README.md
+
 
 ---
 
 ## Author
 Dua Zahra  
 LinkedIn: https://www.linkedin.com/in/dua-zahra-ai/  
-Email: duazahrazahra344@gmail.com
+Email: duazahrazahra344@gmail.com  
 
 ---
 
 ## Note
-This is a machine learning project built for practice and portfolio development. It demonstrates end-to-end ML workflow from data preprocessing to model evaluation.
+This project is part of a machine learning learning-to-freelancing transition portfolio. It demonstrates end-to-end ML workflow from preprocessing to model evaluation.
