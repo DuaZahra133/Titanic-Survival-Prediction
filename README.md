@@ -72,11 +72,10 @@ Titanic-Survival-Prediction/
 │
 ├── notebook.ipynb
 ├── images/
-│ ├── confusion_matrix.png
-│ ├── survival_by_gender.png
-│ └── survival_count.png
+│   ├── confusion_matrix.png
+│   ├── survival_by_gender.png
+│   └── survival_count.png
 └── README.md
-
 
 ---
 
@@ -89,3 +88,4 @@ Email: duazahrazahra344@gmail.com
 
 ## Note
 This project is part of a machine learning learning-to-freelancing transition portfolio. It demonstrates end-to-end ML workflow from preprocessing to model evaluation.
+
