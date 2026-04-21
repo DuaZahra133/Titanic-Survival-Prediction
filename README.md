@@ -86,6 +86,8 @@ Titanic-Survival-Prediction/
 └── README.md
  ``` 
 ---
+## conculsion
+This project demonstrates a complete machine learning pipeline from data preprocessing to model evaluation. It can be extended for real-world classification problems.
 
 ## Author
 Dua Zahra  
