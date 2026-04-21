@@ -10,6 +10,12 @@ Given passenger details such as age, gender, ticket class, and fare, the goal is
 
 ---
 
+## Dataset Information
+Source: Kaggle /
+Features used: age, gender, class, etc.
+Target: survival (0/1)
+
+---
 ## Workflow
 
 ### 1. Data Understanding
