@@ -88,6 +88,4 @@ Email: duazahrazahra344@gmail.com
 
 ---
 
-## Note
-This project is part of a machine learning learning-to-freelancing transition portfolio. It demonstrates end-to-end ML workflow from preprocessing to model evaluation.
 
