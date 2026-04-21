@@ -68,6 +68,8 @@ The project includes visual analysis such as:
 ---
 
 ## Project Structure
+
+```text
 Titanic-Survival-Prediction/
 │
 ├── notebook.ipynb
@@ -76,7 +78,6 @@ Titanic-Survival-Prediction/
 │   ├── survival_by_gender.png
 │   └── survival_count.png
 └── README.md
-
 ---
 
 ## Author
